@@ -18,9 +18,9 @@ DaysMode.addEventListener("click", () => {
 const days = [
   "Sunday",
   "Monday",
+  "Tuesday",
+  "Wednesday",
   "Thursday",
-  "Wensday",
-  "Firstday",
   "Friday",
   "Saturday",
 ];
