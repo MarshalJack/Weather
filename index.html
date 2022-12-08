@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <div class="title">
+            <h3>my weather</h3>
+            <div>
+                <input type="search" name="search">
+                <button type="button">&#128269;</button>
+            </div>
+        </div>
+        <div id="switch">
+            <div id="Today">Today</div>
+            <div id="5days">5-days forecast</div>
+        </div>
+        <div class="current">
+            <div class="curTitle">
+                <p class="Title"></p>
+                <p class="cityName"></p>
+                <p class="date"></p>
+            </div>
+            <div class="cMain">
+                <div>
+                    <div class="img"></div>
+                    <p class="weather"></p>
+                </div>
+                <div class="tempTotal"></div>
+                <div class="tempAVG">
+                    <div class="min"></div>
+                    <div class="max"></div>
+                    <div class="wind"></div>
+                </div>
+            </div>
+        </div>
+        <div id="days">
+            <div id="day"></div>
+            <div id="day"></div>
+            <div id="day"></div>
+            <div id="day"></div>
+            <div id="day"></div>
+        </div>
+        <div class="hourly">
+            <p class="curTitle">Hourly</p>
+            <div class="time">
+                <div class="day"></div>
+                <div class="time1"></div>
+                <div class="time1"></div>
+                <div class="time1"></div>
+                <div class="time1"></div>
+                <div class="time1"></div>
+                <div class="time1"></div>
+            </div>
+            <div id="hourlyWeather">
+                <div></div>
+                <img class="hWeather"></img>
+                <img class="hWeather"></img>
+                <img class="hWeather"></img>
+                <img class="hWeather"></img>
+                <img class="hWeather"></img>
+                <img class="hWeather"></img>
+            </div>
+            <div id="hourlyDescribtion">
+                <div>Forecast</div>
+                <div class="desc"></div>
+                <div class="desc"></div>
+                <div class="desc"></div>
+                <div class="desc"></div>
+                <div class="desc"></div>
+                <div class="desc"></div>
+            </div>
+            <div id="hourlyTemp">
+                <div>Temp (&#176;C)</div>
+                <div class="hTemp"></div>
+                <div class="hTemp"></div>
+                <div class="hTemp"></div>
+                <div class="hTemp"></div>
+                <div class="hTemp"></div>
+                <div class="hTemp"></div>
+            </div>
+            <div id="hourlyFeels">
+                <div>Feels Like (&#176;C)</div>
+                <div class="hFeels"></div>
+                <div class="hFeels"></div>
+                <div class="hFeels"></div>
+                <div class="hFeels"></div>
+                <div class="hFeels"></div>
+                <div class="hFeels"></div>
+            </div>
+            <div id="hourlyWind">
+                <div>Wind(km/h)</div>  
+                <div class="hWind"></div>
+                <div class="hWind"></div>
+                <div class="hWind"></div>
+                <div class="hWind"></div>
+                <div class="hWind"></div>
+                <div class="hWind"></div>
+            </div>
+        </div>
+        <div id="error">
+            <h1>ERROR</h1>
+        </div>
+    </section>
+</body>
+
+</html>
